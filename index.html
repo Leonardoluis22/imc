@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Modelo</title>
+  </head>
+  <body>
+    <section class="container">
+      <h1>IMC</h1>
+
+      <ul>
+        <li>Menor do que 18,5 - Abaixo do peso</li>
+        <li>Entre 18,5 e 24,9 - Perso normal</li>
+        <li>Entre 25 e 29,9 - Sobrepeso</li>
+        <li>Entre 30 e 34,9 - Obesidade Grau 1</li>
+        <li>Entre 35 e 39,9 - Obesidade Grau 2</li>
+        <li>Maior que 40 - Obesidade Grau 3</li>
+      </ul>
+      <form action="">
+        <div>
+          <label for="idPeso">
+            Peso:
+            <input type="number" name="" id="idPeso" />
+          </label>
+          <label for="idAltura">
+            Altura: <input type="number" name="" id="idAltura" />
+          </label>
+          <div id="resultado">
+            <span></span>
+          </div>
+          <button id="btn">Enviar</button>
+        </div>
+      </form>
+    </section>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
